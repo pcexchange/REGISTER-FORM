@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(47, 146, 185);
+}
+main{
+    max-width: 60%;
+    margin: auto ;
+    background-color: white;
+    margin-top: 20px;
+    height: 500px;
+}
+.form{
+    text-align: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-top: 40px;
+}
+.log{
+    display: flex;
+    gap: 15px;
+    padding-left: 30px;
+    
+}
+.log > a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+.index{
+    color: black;
+}
+.register{
+    color: rgb(47, 146, 185);
+    border-bottom: 2px dashed rgb(47, 146, 185);
+    padding-bottom: 5px;
+}
+.for{
+    padding-left: 15px;
+    position: relative;
+}
+.eye{
+    position: absolute;
+    right: 60px;
+    bottom: 25px;
+    color: gray;
+}
+
+#user{
+    width: 700px;
+    padding: 15px;
+    margin: 10px;
+}
+#mail{
+    width: 700px;
+    padding: 15px;
+    margin: 10px;
+}
+#word{
+    width: 700px;
+    padding: 15px;
+    margin: 10px;
+}
+.regi{
+    text-align: center;
+    padding: 10px;
+    width: 700px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 10px;
+    background-color: rgb(47, 146, 185);
+    border: none;
+    color: white;
+
+}
+.regi-con{
+    padding-left: 15px;
+}
+.or{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin: 10px;
+    gap: 5px;
+}
+.or > p{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: gray;
+}
+hr{
+    width: 42%;
+    height: 20%;
+}
+.face{
+    display: flex;
+    margin: 10px;
+    margin-top: 10px;
+    padding-left: 15px;
+    gap: 200px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.book{
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(15, 98, 167);
+    border: none;
+    width: 100px;
+}
+.goog{
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+    background-color: red;
+    border: none;
+    width: 100px;
+}
+.twit{
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(84, 193, 236);
+    border: none;
+    width: 100px;
+}
