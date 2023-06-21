@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+   background-color: cornflowerblue;
+   background-size: cover;
+}
+ main{
+    width: fit-content;
+    margin: auto;
+ }
+
+ .firstcon{
+   border: 1px solid white;
+   width: 450px;
+   background-color: white;
+   margin: auto;
+   padding: 20px 15px 20px 13px;
+   height: 368px;
+   margin-top: 70px;
+
+ }
+
+ .formdiv{
+    text-align: center;
+ }
+
+ .logindiv{
+    display: flex;
+    gap: 10px;
+    
+ }
+
+ .content{
+    color: cornflowerblue;
+   
+    
+ }
+
+ form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+ }
+
+ input{
+   padding: 8px 17px;
+   border-radius: 5px;
+   border-color: gainsboro;
+   width: 100%;
+ }
+
+ .buttons{
+   gap: 15px;
+   display: flex;
+ }
+
+ .but1{
+   background-color: cornflowerblue;
+  color: white;
+  border-style: none;
+  padding: 9px 30px;
+ }
+
+ .but2{
+   color: cornflowerblue;
+   background-color: transparent;
+   border-style: none;
+ }
+
+.line{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+
+hr{
+   width: 90%;
+   height: 10%;
+}
+
+.fb{
+   background-color: rgb(66, 66, 151);
+   color: white;
+   padding: 7px 20px;
+   border-style: none;
+   border-radius: 5px;
+}
+
+.goo{
+   background-color: rgb(207, 27, 27);
+   color: white;
+   padding: 7px 20px;
+   border-style: none;
+   border-radius: 5px;
+}
+
+.twit{
+   background-color:skyblue;
+   color: white;
+   padding: 7px 20px;
+   border-style: none;
+   border-radius: 5px;
+}
+
+.social{
+   display: flex;
+   gap: 70px;
+   margin-left: 20px;
+   
+}
+
+.icon{
+   position: relative;
+   
+}
+
+i{
+   position: absolute;
+   right: 20px;
+   bottom: 10px;
+   color: grey;
+}
